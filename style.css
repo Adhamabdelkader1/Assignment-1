@@ -1,0 +1,236 @@
+body{
+    background-color: #f0f4f8;
+}
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: rgba(8, 8, 155, 0.847); */
+}
+.header {
+  background-color: rgba(16, 54, 136, 0.876);
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.header h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.header p {
+  color: aqua;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.buttons {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 8px 16px;
+  border: .5px solid #d9e4ef95 ;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 6px;
+  font-size: 15px;
+}
+a.buttons:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header div {
+  padding-bottom: 10px;
+}
+
+.about-me{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+.about-me h2 {
+  color: #022470;
+  font-size: 28px;
+  margin: 10px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #022470;
+}
+.about-me img {
+  width: 200px;
+  border: 3px solid aqua;
+  border-radius: 50%;
+  margin: 25px;
+  float: left;
+}
+.clear-fix {
+  clear: both;
+}
+.text p {
+  font-size: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px; 
+}
+
+.about-me span {
+  color: #022470;
+  font-weight: bold;
+}
+.text a {
+  background-color: #022470;
+  color: white;
+  font-size: 16px;
+  padding: 20px 30px;
+  /* margin-top: 10px; */
+  text-decoration: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.skills {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px; 
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    width: 100%;
+  
+}
+.skills h2 {
+  color: #022470;
+  font-size: 28px;
+  margin: 10px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(2, 36, 112);
+}
+.skills p {
+  font-size: 20px;
+}
+.skills .child {
+    float: left; 
+    width:22.95%;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.skills h3 {
+    color: #1d4ed8;
+    font-size: 20px;
+    margin: 10px;
+
+}
+.skills p {
+    color:black;
+    font-size: 16px;
+    margin: 10px;
+
+}
+
+.experience {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px; 
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    width: 100%;
+  
+}
+.experience h2 {
+  color: #022470;
+  font-size: 28px;
+  margin: 10px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(2, 36, 112);
+}
+.experience-item {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 25px;
+    margin: 20px 0px; 
+    border-radius: 10px;
+    border-left: 7px solid #1d4ed8;
+}
+.experience-item h3 {
+    color: black;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.experience-item h4 {
+    color: #1d4ed8;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.experience-item img {
+    width: 100px;
+    background-color: white;   
+    border: 2px solid aqua;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0px 30px 10px 0px;
+    float: left;
+}
+.experience-item h5 {
+    font-size: 15px;
+    margin: 15px 0; 
+}
+.experience-item p {
+    color:black;
+    font-size: 16px;
+    margin: 10px 0;
+
+}
+.contact-me {
+    background-color: rgba(16, 54, 136, 0.876);
+    padding: 25px; 
+
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    width: 100%;
+  
+}
+.contact-me h2 {
+  color: white;
+  font-size: 28px;
+  margin: 10px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
+}
+
+.contact-me p {
+  color: white;
+  margin: 25px 0;
+}
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info .links {
+   background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 8px 16px;
+  border: .5px solid #d9e4ef95 ;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: rgba(0, 20, 63, 0.876);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.footer span{
+    color: rgb(0, 165, 255);
+}
+
